@@ -25,6 +25,8 @@ a {
 	display: flex;
 }
 
+/* sidebar */
+
 .sidebar {
 	flex-shrink: 0;
 	overflow: hidden;
@@ -41,6 +43,14 @@ a {
     flex-grow: 1;
 }
 
+.dropdown-toggle::after {
+    display: none;
+}   
+
+
+.fa-bell{
+    color: rgb(249, 169, 20)
+}
 
 
 .main-content {
@@ -49,8 +59,8 @@ a {
 	background-color: var(--dark-blue);
 }
 
-.navbar {
-	flex-shrink: 0;
+.navbar-container {	
+    width: 100vw;
 	
 }
 
