@@ -1,0 +1,53 @@
+ul,
+ol,
+menu {
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: currentColor;
+}
+
+.container-body {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.content {
+	flex-grow: 1;
+	overflow: hidden;
+	display: flex;
+}
+
+.sidebar {
+	flex-shrink: 0;
+	overflow: hidden;
+	background-color: #282828;
+    flex-basis: 150px;
+}
+
+.main-content {
+	flex-grow: 1;
+	overflow-y: auto;
+	background-color: var(--dark-blue);
+}
+
+.navbar {
+	flex-shrink: 0;
+	
+}
+
+/* debug */
+
+.sidebar,
+.main-content,
+.navbar{
+    border: 2px solid red;
+
+}
