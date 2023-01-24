@@ -28,9 +28,20 @@ a {
 .sidebar {
 	flex-shrink: 0;
 	overflow: hidden;
-	background-color: #282828;
-    flex-basis: 150px;
+	background-color: rgb(19, 41, 63);
+    flex-basis: 148px;
+    display: flex;
+    flex-direction: column;
+    padding: 35px 0;
+    background-image: url(../img/sidebar-bg.png);
 }
+
+
+.sidebar_menu{
+    flex-grow: 1;
+}
+
+
 
 .main-content {
 	flex-grow: 1;
