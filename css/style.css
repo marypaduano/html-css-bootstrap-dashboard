@@ -45,7 +45,11 @@ a {
 
 .dropdown-toggle::after {
     display: none;
-}   
+}  
+
+.dropdown-menu{
+	margin-right: -12px;
+}
 
 
 .fa-bell{
