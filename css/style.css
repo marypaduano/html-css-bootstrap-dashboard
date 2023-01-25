@@ -68,6 +68,33 @@ a {
 	width: 50px;
 }
 
+.title{
+	font-size: 28px;
+}
+
+.countnav{
+	background-color: rgb(27, 114, 232);
+	color: white;
+	padding: 20px;
+}
+
+.badge{
+	background-color: rgba(53, 53, 192, 0.532);
+	padding: 5px;
+}
+
+.plus-btn{
+	color: white;
+	font-size: 35px;
+}
+
+.expand::before{
+	content: '\00BB';
+	display:block;
+	color: white;
+}
+
+
 @media  screen and (max-width: 575px) {
 
     .sidebar{
@@ -88,6 +115,16 @@ a {
 
 	.item_icon > span{
 		display: none;
+	}
+
+	.reg_offcanvas{
+		order: -1;
+		justify-content: flex-start !important;
+		padding: 5px 0;
+	}
+
+	.row_countnav{
+		flex-direction: column;
 	}
 }
 
