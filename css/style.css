@@ -88,6 +88,11 @@ a {
 	font-size: 35px;
 }
 
+.f_delete{
+	background-color: orange;
+}
+
+
 .expand::before{
 	content: '\00BB';
 	display:block;
