@@ -25,6 +25,8 @@ a {
 	display: flex;
 }
 
+
+
 /* sidebar */
 
 .sidebar {
@@ -47,13 +49,27 @@ a {
     display: none;
 }  
 
-.dropdown-menu{
-	margin-right: -12px;
-}
-
-
 .fa-bell{
     color: rgb(249, 169, 20)
+}
+
+.table-col{
+	border: 1px solid grey;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.caption-class{
+	font-size: 20px;
+	font-weight: 700;
+	color: black;
+	border-bottom: 1px solid grey;
+	background-color: rgba(224, 224, 224, 0.458);
+	
+}
+
+.class{
+	width: 25px;
 }
 
 
