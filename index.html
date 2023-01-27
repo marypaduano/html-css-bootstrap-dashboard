@@ -14,7 +14,7 @@
 </head>
 <body class="container-body">
     <header class="main-header">
-        <nav class="navbar navbar-expand-lg  ">
+        <nav class="navbar">
             <div class="container-fluid">
               <a class="navbar-brand d-none d-sm-block" href="#">
                 <img src="./img/logo.svg" alt="">
@@ -25,33 +25,36 @@
               <form class="d-flex flex-grow-1 ms-3 me-3" role="search">
                 <input class="form-control" type="search" placeholder="&#128270; Prova a cercare: Lezioni di Laravel">
               </form>               
-                <ul class="navbar-nav mb-2 mb-0 ms-2 d-flex justify-content-end align-item-center">
-                    <li class="nav-item d-none d-lg-block">
-                        <a class="nav-link" href="#">
-                            <i class="fa-solid fa-list-ul"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item d-none d-lg-block">
-                        <a class="nav-link" href="#">
-                            <i class="fa-solid fa-circle-question"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item d-none d-lg-block">
-                        <a class="nav-link" href="#">
-                            <i class="fa-solid fa-ellipsis-vertical"></i>
-                        </a>
-                    </li> 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <i class="fa-solid fa-bell"></i>
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Profilo</a></li>
-                          <li><a class="dropdown-item" href="#">Fatturazione</a></li>
-                          <li><a class="dropdown-item" href="#">Logout</a></li>
-                        </ul>
-                    </li>   
-                </ul>              
+              <ul class="nav">
+                <li class="nav-item d-none d-lg-block">
+                  <a class="nav-link" aria-current="page" href="#">
+                    <i class="fa-solid fa-list-ul"></i>
+                  </a>
+                </li>
+                <li class="nav-item d-none d-lg-block">
+                  <a class="nav-link" href="#">
+                    <i class="fa-solid fa-circle-question"></i>
+                  </a>
+                </li>
+                <li class="nav-item d-none d-lg-block">
+                  <a class="nav-link" href="#">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                  </a>
+                </li>
+                <li class="nav-item dropdown">
+                  
+                    <a class="dropdown-toggle nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <i class="fa-solid fa-bell"></i>
+                    </a>
+                  
+                    <ul class="dropdown-menu dropdown-menu-end">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+    
+                </li>
+              </ul>    
             </div>
         </nav>
     </header>
